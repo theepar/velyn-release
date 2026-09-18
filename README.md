@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="VELYN" width="88" height="88" />
+<img src="assets/banner.png" alt="VELYN — Platform komunikasi real-time yang cepat, aman, dan privat" width="100%" />
 
 # VELYN
 
