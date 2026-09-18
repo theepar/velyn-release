@@ -27,7 +27,7 @@ Aplikasi pesan & panggilan real-time yang dibangun dari nol dengan satu prinsip:
 
 ---
 
-## 🔐 Soal Keamanan, Kita Serius
+## 🔐 Komitmen Kami pada Keamanan
 
 Banyak aplikasi chat bilang "terenkripsi", tapi enkripsinya baru jalan pas data "dalam perjalanan" (in-transit) — begitu sampai di server, isinya kebaca lagi. VELYN beda: pesan kamu **sudah** jadi kode acak (ciphertext) SEBELUM meninggalkan perangkat kamu. Formatnya `velyn:v1:<iv>:<ciphertext>` — server, database, bahkan tim VELYN sendiri cuma lihat gibberish, bukan isi obrolan.
 
