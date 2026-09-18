@@ -1,54 +1,44 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/theepar/velyn-release/main/assets/logo.png" alt="VELYN" width="80" height="80" />
+<img src="assets/logo.png" alt="VELYN" width="80" height="80" />
 
 # VELYN
 
-**Real-Time Messaging, Reimagined.**
+**Ngobrol cepat, aman, dan privat — langsung dari browser atau HP kamu.**
 
-Aplikasi pesan real-time dengan enkripsi end-to-end AES-256-GCM.\
-Tersedia untuk Android dan Windows.
+Aplikasi pesan & panggilan real-time dengan enkripsi end-to-end AES-256-GCM.\
+Tersedia untuk Web (buka langsung, bisa di-install jadi app) dan Android.
 
-[![Latest Release](https://img.shields.io/github/v/release/theepar/velyn-release?style=for-the-badge&color=6C63FF&label=Latest)](https://github.com/theepar/velyn-release/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/theepar/velyn-release/total?style=for-the-badge&color=6C63FF)](https://github.com/theepar/velyn-release/releases)
+[![Releases](https://img.shields.io/badge/Releases-lihat%20semua-6C63FF?style=for-the-badge)](https://github.com/theepar/velyn-release/releases)
 
 </div>
 
 ---
 
-## Download
+## ✨ Kenapa VELYN
 
-Buka halaman **[Releases](https://github.com/theepar/velyn-release/releases/latest)** untuk download versi terbaru.
-
-| Platform | Format | Keterangan |
-|---|---|---|
-| Android | `.apk` | Universal APK (ARM + x86_64) |
-| Windows | `.exe` | Installer setup (x64) |
-
----
-
-## Instalasi
-
-### Android
-1. Download file `velyn-mobile-vX.X.X.apk`
-2. Aktifkan **"Install from unknown sources"** di Settings → Security
-3. Buka file APK dan ikuti proses instalasi
-
-### Windows
-1. Download file `VELYN-Setup-X.X.X.exe`
-2. Jalankan installer
-3. VELYN akan tersedia di Start Menu dan Desktop
+- 💬 **Chat instan** — kirim pesan tanpa delay, status terkirim & dibaca real-time
+- 🔒 **Terenkripsi end-to-end** (AES-256-GCM) — cuma kamu & lawan bicara yang bisa baca
+- 📞 **Panggilan suara & video HD** — jernih, langsung peer-to-peer lewat WebRTC
+- 🌐 **Jalan di mana aja** — buka lewat browser, install sebagai app sekali klik, atau pakai APK Android
+- 🚫 **Tanpa iklan, tanpa pelacak** — privasi kamu bukan produk yang dijual
 
 ---
 
-## Tentang
+## 📦 Download & Instalasi
 
-VELYN adalah aplikasi pesan real-time dengan fitur:
+Buka halaman **[Releases](https://github.com/theepar/velyn-release/releases/latest)** untuk versi terbaru.
 
-- **Enkripsi E2EE** — AES-256-GCM, semua pesan terenkripsi secara default
-- **Real-time** — WebSocket engine dengan kapasitas tinggi
-- **Multi-platform** — Android & Windows Native (Qt 6 / C++)
-- **QR Auth** — Login cross-device via QR code
+| Platform | Cara Akses |
+|---|---|
+| 🌐 Web | Buka **[velynchat.web.id](https://www.velynchat.web.id/)** — langsung pakai, atau install sebagai app dari browser (Add to Home Screen / Install App) untuk pengalaman seperti aplikasi native, termasuk di desktop |
+| 🤖 Android | Download `velyn-mobile-vX.X.X.apk` di halaman Releases, aktifkan **"Install from unknown sources"** di Settings → Security, lalu buka file APK dan ikuti instalasi |
+
+---
+
+## 🔒 Keamanan
+
+Semua pesan dienkripsi di perangkat kamu sendiri sebelum dikirim (AES-256-GCM). Server tidak pernah menerima atau menyimpan isi pesan dalam bentuk terbaca (*plaintext*).
 
 > Source code bersifat proprietary dan tidak dipublikasikan.
 
