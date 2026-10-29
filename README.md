@@ -129,13 +129,16 @@ aplikasi, perangkat atau browser, langkah reproduksi, dan tangkapan layar jika
 diperlukan. Hindari menyertakan isi percakapan pribadi, kode OTP, token sesi,
 atau passphrase pemulihan.
 
-Untuk laporan kerentanan keamanan, hubungi pengelola repositori secara privat
-sebelum memublikasikan detail teknisnya.
+Untuk laporan kerentanan keamanan, gunakan
+[Report a vulnerability](https://github.com/theepar/velyn-release/security/advisories/new)
+secara privat. Panduan pelaporan dan cakupan dukungan ada di [SECURITY.md](SECURITY.md).
 
 ## Lisensi
 
 VELYN merupakan perangkat lunak proprietary. Repositori publik ini digunakan
 untuk dokumentasi dan distribusi rilis; ketersediaannya tidak memberikan lisensi
 open-source atas kode sumber aplikasi.
+
+Izin penggunaan aplikasi dan batas penggunaan materi tersedia di [LICENSE.md](LICENSE.md).
 
 Copyright © 2026 VELYN Team.
