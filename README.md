@@ -1,84 +1,141 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="VELYN — Platform komunikasi real-time yang cepat, aman, dan privat" width="100%" />
+<img src="assets/velyn-v-purple.svg" alt="Logo VELYN" width="88" height="88" />
 
 # VELYN
 
-### Ngobrol cepat, aman, dan privat — di mana aja, kapan aja.
+**Tetap dekat, di mana saja.**
 
-Aplikasi pesan & panggilan real-time yang dibangun dari nol dengan satu prinsip: **isi obrolan kamu adalah urusan kamu, titik.** Setiap pesan dienkripsi langsung di perangkat kamu sebelum dikirim, jadi bukan cuma "aman di jalan" — tapi memang nggak pernah bisa dibaca siapa pun selain kamu dan lawan bicara. Nggak server, nggak penyedia layanan, nggak pihak ketiga.
+Perpesanan real-time dengan enkripsi end-to-end untuk percakapan pribadi,
+serta panggilan suara dan video melalui web.
 
-[![Releases](https://img.shields.io/badge/Releases-lihat%20semua-6C63FF?style=for-the-badge)](https://github.com/theepar/velyn-release/releases)
-[![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Android-6C63FF?style=for-the-badge)](#-download--instalasi)
-
-</div>
-
----
-
-## ✨ Kenapa Orang Betah Pakai VELYN
-
-- **💬 Chat yang beneran instan** — nggak ada delay aneh, status "terkirim" dan "dibaca" muncul real-time, ketikan lawan bicara kelihatan langsung lewat indikator "sedang mengetik".
-- **🔒 Terenkripsi end-to-end (AES-256-GCM)** — enkripsi dihitung di HP/browser kamu sendiri pakai Web Crypto API, bukan di server. Server cuma nerusin data yang udah terkunci, dia sendiri nggak punya kuncinya.
-- **📞 Panggilan suara & video HD** — koneksi WebRTC langsung antar perangkat (peer-to-peer), jadi kualitasnya jernih dan nggak nge-lag kalau jaringan lagi bagus. Server nggak pernah "dengar" atau "lihat" panggilan kamu — dia cuma bantu dua perangkat saling kenalan di awal.
-- **🔗 Login lintas perangkat via QR** — mau lanjut chat dari HP ke laptop? Scan QR, langsung sinkron, sama kayak yang biasa kamu pakai di aplikasi chat populer lainnya.
-- **🌐 Jalan di mana aja, tanpa app store** — buka langsung dari browser (Chrome, Safari, Edge, Firefox), atau install jadi aplikasi dengan sekali klik ("Add to Home Screen" / "Install App") buat pengalaman yang berasa kayak aplikasi native — di HP maupun di komputer.
-- **🗑️ Kontrol penuh atas data kamu** — atur auto-delete pesan, atau hapus akun beserta seluruh riwayatnya kapan pun kamu mau. Nggak ada data yang "nyangkut" di server selamanya.
-- **🚫 Tanpa iklan, tanpa pelacak, tanpa jual data** — nggak ada model bisnis "kalau gratis, kamu produknya" di sini. Titik.
-
----
-
-## 🔐 Komitmen Kami pada Keamanan
-
-Banyak aplikasi chat bilang "terenkripsi", tapi enkripsinya baru jalan pas data "dalam perjalanan" (in-transit) — begitu sampai di server, isinya kebaca lagi. VELYN beda: pesan kamu **sudah** jadi kode acak (ciphertext) SEBELUM meninggalkan perangkat kamu. Formatnya `velyn:v1:<iv>:<ciphertext>` — server, database, bahkan tim VELYN sendiri cuma lihat gibberish, bukan isi obrolan.
-
-Itu juga kenapa fitur pencarian pesan di server, backup otomatis ke cloud yang bisa dibaca pihak lain, atau moderasi konten otomatis itu **secara desain nggak mungkin ada** di VELYN — bukan karena belum sempat dibikin, tapi karena kalau ada, artinya enkripsinya bohongan.
-
----
-
-## 📦 Download & Instalasi
-
-Buka halaman **[Releases](https://github.com/theepar/velyn-release/releases/latest)** untuk versi terbaru.
-
-### 🌐 Web (rekomendasi — paling gampang)
-1. Buka **[www.velynchat.web.id](https://www.velynchat.web.id/)** di browser apa saja.
-2. Langsung bisa dipakai — nggak perlu install apa-apa.
-3. Mau lebih "berasa app"? Klik **Install** / **Add to Home Screen** di menu browser. Ikon VELYN bakal muncul di homescreen/desktop kamu, buka-nya secepat aplikasi native.
-
-### 🤖 Android
-1. Download `velyn-mobile-vX.X.X.apk` dari halaman [Releases](https://github.com/theepar/velyn-release/releases/latest).
-2. Aktifkan **"Install from unknown sources"** di Settings → Security (cuma sekali, buat instalasi file APK di luar Play Store).
-3. Buka file APK yang udah didownload, ikuti proses instalasi seperti biasa.
-
----
-
-## ❓ Pertanyaan yang Sering Ditanya
-
-**Apakah VELYN gratis?**
-Ya, sepenuhnya gratis, tanpa biaya langganan atau paket premium tersembunyi.
-
-**Apakah saya wajib install aplikasi?**
-Enggak. Versi web-nya sudah lengkap fiturnya — install itu opsional, cuma buat kenyamanan (ikon di homescreen, buka lebih cepat).
-
-**Kalau saya ganti HP, riwayat chat-nya hilang nggak?**
-Selama kamu belum hapus akun atau matiin auto-delete, riwayat tersinkron ke akun kamu (tetap dalam bentuk terenkripsi) dan bisa diakses lagi setelah login di perangkat baru.
-
-**Apakah tim VELYN bisa baca chat saya kalau ada laporan/komplain?**
-Tidak bisa. Karena enkripsinya di sisi klien, server (dan siapa pun yang mengelolanya) secara teknis tidak memiliki cara untuk membaca isi pesan.
-
----
-
-<div align="center">
-
-**Coba sekarang, rasain sendiri bedanya ngobrol tanpa was-was.**
-
-[![Buka VELYN Web](https://img.shields.io/badge/Buka%20VELYN%20Web-www.velynchat.web.id-6C63FF?style=for-the-badge)](https://www.velynchat.web.id/)
+[Buka aplikasi](https://chat.velynchat.web.id/) · [Situs resmi](https://www.velynchat.web.id/) · [Rilis](https://github.com/theepar/velyn-release/releases)
 
 </div>
 
----
+Repositori ini menyediakan informasi penggunaan, catatan rilis, dan distribusi
+aplikasi VELYN. Kode sumber aplikasi bersifat proprietary dan tidak dipublikasikan
+di repositori ini.
 
-> Source code bersifat proprietary dan tidak dipublikasikan.
+> **Ketersediaan:** aplikasi web dapat digunakan sekarang. Per 29 Oktober 2026,
+> belum ada rilis atau APK Android yang dipublikasikan di repositori ini.
 
-<div align="center">
-  <sub>&copy; 2026 VELYN Team</sub>
-</div>
+## Daftar isi
+
+- [Mulai menggunakan VELYN](#mulai-menggunakan-velyn)
+- [Fitur dan dukungan platform](#fitur-dan-dukungan-platform)
+- [Privasi dan enkripsi](#privasi-dan-enkripsi)
+- [Pindah ke perangkat baru](#pindah-ke-perangkat-baru)
+- [Bantuan dan masukan](#bantuan-dan-masukan)
+- [Lisensi](#lisensi)
+
+## Mulai menggunakan VELYN
+
+### Web
+
+1. Buka [chat.velynchat.web.id](https://chat.velynchat.web.id/) dari browser terbaru
+   di komputer atau ponsel.
+2. Masukkan alamat email, lalu gunakan kode verifikasi yang dikirim ke kotak masuk.
+3. Lengkapi profil jika diminta, lalu mulai percakapan.
+
+Untuk panggilan suara atau video, izinkan akses mikrofon dan kamera saat diminta.
+Kualitas panggilan bergantung pada perangkat, izin browser, dan jaringan kedua
+pengguna. Browser juga perlu mendukung Web Crypto X25519 agar enkripsi pesan
+dapat digunakan.
+
+Versi web digunakan langsung di browser. VELYN saat ini tidak menyediakan PWA
+atau aplikasi desktop native.
+
+### Android
+
+Klien Android dikembangkan dengan Flutter. APK akan tersedia melalui halaman
+[Releases](https://github.com/theepar/velyn-release/releases) saat dipublikasikan.
+
+Setelah APK tersedia:
+
+1. Buka rilis yang ingin dipasang dan unduh berkas APK pada bagian **Assets**.
+2. Buka berkas tersebut. Jika diminta Android, izinkan pemasangan dari aplikasi
+   browser atau pengelola berkas yang digunakan.
+3. Selesaikan pemasangan, lalu masuk dengan akun VELYN.
+
+Fitur klien Android belum setara dengan web. Panggilan suara dan video belum
+didukung di aplikasi Android.
+
+## Fitur dan dukungan platform
+
+VELYN mendukung percakapan pribadi real-time, indikator sedang mengetik,
+status pesan, dan penautan perangkat melalui QR. Perbedaan implementasi klien
+saat ini dirangkum di bawah; ketersediaan pada APK mengikuti versi yang dirilis.
+
+| Fitur | Web | Klien Android |
+| :--- | :--- | :--- |
+| Masuk dengan kode verifikasi email | Didukung | Didukung |
+| Pesan pribadi terenkripsi end-to-end | Didukung | Didukung |
+| Mengirim lampiran terenkripsi | Gambar, video, audio, dan dokumen | Gambar dari galeri atau kamera |
+| Menerima dan membuka lampiran terenkripsi | Didukung | Didukung |
+| Panggilan suara dan video | WebRTC | Belum didukung |
+
+Nomor akun privat berbeda dari username. Nomor tersebut berupa 12 digit acak
+dan hanya ditampilkan pada profil pemilik akun di pengaturan; nomor ini tidak
+ditampilkan kepada kontak lain.
+
+## Privasi dan enkripsi
+
+Pesan pribadi baru memakai skema `velyn:v2`: pertukaran kunci **X25519**, penurunan
+kunci **HKDF-SHA256**, dan enkripsi **AES-256-GCM**. Isi pesan dienkripsi di
+perangkat sebelum dikirim, lalu disimpan di server dalam bentuk ciphertext.
+Jika kunci belum tersedia, pesan gagal dikirim tanpa beralih ke teks terbuka.
+
+Lampiran dienkripsi dengan kunci acak per berkas. Kunci untuk membuka lampiran
+disertakan di dalam pesan yang terenkripsi. Panggilan web menggunakan
+perlindungan media **DTLS-SRTP** bawaan WebRTC; koneksi dapat berlangsung langsung
+antarperangkat atau melalui relay TURN sesuai kondisi jaringan.
+
+Ada beberapa batasan yang perlu dipahami:
+
+- **Metadata tetap terlihat oleh server**, termasuk identitas pengirim dan
+  penerima, waktu, serta ukuran pesan.
+- **Forward secrecy belum tersedia.** Skema saat ini menggunakan kunci akun
+  agar riwayat dapat dibuka di perangkat lain yang memiliki kunci tersebut.
+- **Enkripsi grup antaranggota belum didukung.** Penjelasan enkripsi end-to-end
+  di atas berlaku untuk percakapan pribadi.
+- **Verifikasi kode keamanan antarpengguna belum tersedia.** Distribusi kunci
+  publik masih bergantung pada server.
+- **Riwayat lama `velyn:v1` memiliki skema perlindungan yang lebih lemah.**
+  Format tersebut hanya dipertahankan untuk membaca pesan lama, bukan untuk
+  mengirim pesan baru.
+
+## Pindah ke perangkat baru
+
+Masuk dengan email yang sama memulihkan akses akun, tetapi perangkat baru juga
+memerlukan kunci enkripsi untuk membuka riwayat pesan.
+
+- **Melalui QR:** tampilkan QR masuk pada perangkat baru, lalu pindai dan setujui
+  dari perangkat lama yang sudah masuk dan memiliki kunci akun. Kunci
+  dipindahkan dalam bentuk terenkripsi.
+- **Melalui passphrase pemulihan:** gunakan passphrase jika sebelumnya sudah
+  membuat cadangan pemulihan kunci.
+
+Jika perangkat lama dan passphrase pemulihan tidak tersedia, Anda dapat membuat
+kunci baru untuk melanjutkan percakapan. Riwayat yang memakai kunci lama tidak
+dapat dibuka dengan kunci baru. Simpan akses ke perangkat lama sampai penautan
+perangkat baru selesai.
+
+## Bantuan dan masukan
+
+Laporkan bug atau usulkan fitur melalui
+[GitHub Issues](https://github.com/theepar/velyn-release/issues). Sertakan versi
+aplikasi, perangkat atau browser, langkah reproduksi, dan tangkapan layar jika
+diperlukan. Hindari menyertakan isi percakapan pribadi, kode OTP, token sesi,
+atau passphrase pemulihan.
+
+Untuk laporan kerentanan keamanan, hubungi pengelola repositori secara privat
+sebelum memublikasikan detail teknisnya.
+
+## Lisensi
+
+VELYN merupakan perangkat lunak proprietary. Repositori publik ini digunakan
+untuk dokumentasi dan distribusi rilis; ketersediaannya tidak memberikan lisensi
+open-source atas kode sumber aplikasi.
+
+Copyright © 2026 VELYN Team.
